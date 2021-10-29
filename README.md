@@ -1,4 +1,4 @@
-# TANetLoginTool
+# TANet-iTW-LoginTool
 一個可以自動登入`TANetRoaming`與`iTaiwan`網路的Python工具
 
 > 我恨 TANetRoaming(花蓮的) 現在為啥不能用 iTaiwan 登入(雖然現在 iTaiwan 也不能註冊/登入)
