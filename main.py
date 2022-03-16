@@ -28,7 +28,7 @@ def logPst(logurl = "", itwlog=False):
             return True
         
     elif (ot2.status_code == 200) & (itwlog == True):
-        if ((ot2.url).replace("mobile/", "") == "https://auth.itaiwan.gov.tw/auth_fail.php"):
+        if (urlparse(ot2.url).path == "/auth_fail.php"):
             print("Auth Failed! Trying To Login...")
             return True
         else:
